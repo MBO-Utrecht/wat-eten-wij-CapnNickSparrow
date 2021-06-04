@@ -202,6 +202,92 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162014009}
   m_CullTransparentMesh: 1
+--- !u!1 &177096519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 177096520}
+  - component: {fileID: 177096521}
+  m_Layer: 0
+  m_Name: MakeList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &177096520
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177096519}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 967.2676, y: 1570.5535, z: -496.51437}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &177096521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177096519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eab99bf2ba2bc04db3d2a78a4155404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  daysUI:
+  - {fileID: 310571293}
+  - {fileID: 2076602440}
+  - {fileID: 289061238}
+  - {fileID: 162014011}
+  - {fileID: 1685477603}
+  - {fileID: 250842562}
+  - {fileID: 1378851062}
+  recipesMon:
+  - {fileID: 11400000, guid: 83cda7cdf963c6c4fad8be533a0b5c3c, type: 2}
+  - {fileID: 11400000, guid: 088112bd84f88d240b6bda42b63a13d5, type: 2}
+  - {fileID: 11400000, guid: 4577dfcbdb3c00541a343804b25b039c, type: 2}
+  - {fileID: 11400000, guid: 263d5515d5f0fd948a7041ff81911335, type: 2}
+  recipesTue:
+  - {fileID: 11400000, guid: 4ba557f7773a40f4ab90ca8bdf75a3ea, type: 2}
+  - {fileID: 11400000, guid: 052003890cfab34468a7f234f963fee4, type: 2}
+  - {fileID: 11400000, guid: 2d283bbc8bf5c8b42a65314727efa130, type: 2}
+  - {fileID: 11400000, guid: 5c0c08a8dd03c32488adb954f19c8235, type: 2}
+  recipesWed:
+  - {fileID: 11400000, guid: 5e89cd47f690acb478bdda257f4a93b8, type: 2}
+  - {fileID: 11400000, guid: 05857dbe9261ea747a621ff5d17de084, type: 2}
+  - {fileID: 11400000, guid: 7de1bfc6783188046b9429170cd5d4a0, type: 2}
+  - {fileID: 11400000, guid: 7242baec8c7b3744da6e70ce9ffa507b, type: 2}
+  recipesThu:
+  - {fileID: 11400000, guid: 9496da0601825704aaedc5e524d7e864, type: 2}
+  - {fileID: 11400000, guid: 009573296e27d3b449200caf611b429e, type: 2}
+  - {fileID: 11400000, guid: 93bf0589c4fb1f1469494bab1073a90e, type: 2}
+  - {fileID: 11400000, guid: 11714c3ec74e0c448ac658586812e0e1, type: 2}
+  recipesFri:
+  - {fileID: 11400000, guid: 4c63ece22a0504747936abf4563f5d05, type: 2}
+  - {fileID: 11400000, guid: 3109f65083f9fec4f88b805d4d9ac098, type: 2}
+  - {fileID: 11400000, guid: 6fd294add4ad8614cbf59408b3fd9bbe, type: 2}
+  - {fileID: 11400000, guid: 33fa2dff2bf3581489695a86cc016354, type: 2}
+  recipesSat:
+  - {fileID: 11400000, guid: 36cc3a56aa0b5d94d85344e2f834bf07, type: 2}
+  - {fileID: 11400000, guid: 757212439a225b74f8ed431cef9c883b, type: 2}
+  - {fileID: 11400000, guid: 388a0920e881f3c4fbc65e17703aa023, type: 2}
+  - {fileID: 11400000, guid: bb14cc00b8caf554b893ae9323e9ae3f, type: 2}
+  recipesSun:
+  - {fileID: 11400000, guid: 0fdec1c1455b35d4eb229bbf005f2d9c, type: 2}
+  - {fileID: 11400000, guid: d3c3c0326282ef64c91ffe0d8af24821, type: 2}
+  - {fileID: 11400000, guid: 8438e253b4aeb234eb660da3aaff809c, type: 2}
+  - {fileID: 11400000, guid: e74339939d95bbf4f8effcb1f2932aa0, type: 2}
 --- !u!1 &250842560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,7 +1180,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1695343549}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 177096521}
+        m_TargetAssemblyTypeName: MakeList, Assembly-CSharp
+        m_MethodName: MakeDaList
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1695343549
 MonoBehaviour:
   m_ObjectHideFlags: 0
