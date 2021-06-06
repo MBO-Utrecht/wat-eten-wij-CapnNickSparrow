@@ -14,4 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Lasagna
   kitchen: 0
-  ingredients: []
+  ingredients:
+  - Kaas
+  - UI
+  - Paprika
+  - Deeg
+  servetime: 30

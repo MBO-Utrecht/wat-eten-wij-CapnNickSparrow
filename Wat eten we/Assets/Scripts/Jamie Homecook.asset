@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Jamie Homecook
   kitchen: 4
-  ingredients: []
+  ingredients:
+  - Website Homecook
+  servetime: 25

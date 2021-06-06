@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Zuurkool
   kitchen: 3
-  ingredients: []
+  ingredients:
+  - Zuurkool
+  - 'Aardappelen '
+  servetime: 30

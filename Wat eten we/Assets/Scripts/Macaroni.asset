@@ -14,4 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Macaroni
   kitchen: 0
-  ingredients: []
+  ingredients:
+  - Macaroni Pasta
+  - Groentemix
+  - Gehakt
+  - UI
+  servetime: 20

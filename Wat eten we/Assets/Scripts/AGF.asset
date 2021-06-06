@@ -14,4 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: AGF
   kitchen: 3
-  ingredients: []
+  ingredients:
+  - Aardappelen
+  - Groente
+  - Vlees
+  servetime: 20

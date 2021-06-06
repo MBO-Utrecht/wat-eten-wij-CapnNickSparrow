@@ -14,4 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Wok
   kitchen: 1
-  ingredients: []
+  ingredients:
+  - Vlees
+  - Groenten
+  - Kruiden
+  servetime: 30

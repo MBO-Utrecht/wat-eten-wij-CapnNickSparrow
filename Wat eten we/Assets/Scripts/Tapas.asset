@@ -14,4 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Tapas
   kitchen: 2
-  ingredients: []
+  ingredients:
+  - Olijven
+  - Tomaten
+  - Kaas
+  servetime: 10

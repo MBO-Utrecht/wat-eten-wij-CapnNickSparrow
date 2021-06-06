@@ -14,4 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Soep
   kitchen: 6
-  ingredients: []
+  ingredients:
+  - Water
+  - Groente
+  - Bouilon
+  servetime: 1

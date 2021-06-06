@@ -14,4 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Taco's
   kitchen: 2
-  ingredients: []
+  ingredients:
+  - Schelpen
+  - Vlees
+  - Groenten
+  - Kruidenmix
+  servetime: 50

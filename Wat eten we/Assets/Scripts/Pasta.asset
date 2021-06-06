@@ -14,4 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Pasta
   kitchen: 0
-  ingredients: []
+  ingredients:
+  - Spagethi
+  - Pastasaus
+  - Kruidenmix
+  - Kip
+  servetime: 20
